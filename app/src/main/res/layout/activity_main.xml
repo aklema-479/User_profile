@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar">
+
+    </include>
+// user profile Image
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#ffffff"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+     
+          <ImageView
+              android:layout_width="238px"
+              android:layout_height="238px"
+              android:src="@drawable/user_profile_icon"
+              android:layout_gravity="center"
+              android:layout_marginTop="35dp"
+              >
+
+          </ImageView>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/profileaddphotoicon"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-30dp"
+            >
+
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/user_name"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nimbussanl_bol"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:text="@string/user_email"
+            android:textSize="12dp"
+            android:textColor="#c6c6c6"
+            android:fontFamily="@font/nimbussanl_bol"
+            >
+        </TextView>
+
+    </LinearLayout>
+    //------------------------------------------------------------
+    // Follower Section
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="35dp"
+            >
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/total_books_number"
+                 android:textSize="30dp"
+                 android:fontFamily="@font/nexa_bold"
+                 android:textColor="#c6c6c6"
+                 android:layout_gravity="center"
+                 >
+
+             </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_books"
+                android:textSize="15dp"
+                android:fontFamily="@font/nexa_bold"
+                android:textColor="#c6c6c6"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/followers_number"
+                android:textSize="30dp"
+                android:fontFamily="@font/nexa_bold"
+                android:textColor="#c6c6c6"
+                android:layout_gravity="center"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/followers"
+                android:textSize="15dp"
+                android:fontFamily="@font/nexa_bold"
+                android:textColor="#c6c6c6"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/following_numbers"
+                android:textSize="30dp"
+                android:fontFamily="@font/nexa_bold"
+                android:textColor="#c6c6c6"
+                android:layout_gravity="center"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/following"
+                android:textSize="15dp"
+                android:fontFamily="@font/nexa_bold"
+                android:textColor="#c6c6c6"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <include layout="@layout/profile_content"></include>
+
+
+</LinearLayout>

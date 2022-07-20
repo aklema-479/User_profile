@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_gravity="center"
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+       <LinearLayout
+           android:layout_width="876px"
+           android:layout_height="114px"
+           android:background="@drawable/scrollview_content_background"
+           android:layout_gravity="center"
+           android:orientation="horizontal"
+
+           >
+           <ImageView
+               android:layout_width="67px"
+               android:layout_height="46px"
+               android:src="@drawable/messages_icon"
+               android:layout_gravity="center"
+               android:layout_marginLeft="25dp"
+               >
+
+           </ImageView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="20dp"
+               android:text="@string/user_profile_messages"
+               android:textColor="#49577a"
+               android:fontFamily="@font/superagothic_extrabold"
+               >
+
+           </TextView>
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="876px"
+           android:layout_height="114px"
+           android:background="@drawable/scrollview_content_background"
+           android:layout_gravity="center"
+           android:orientation="horizontal"
+           android:layout_marginTop="25dp"
+           >
+           <ImageView
+               android:layout_width="52px"
+               android:layout_height="52px"
+               android:src="@drawable/add_books_icon"
+               android:layout_gravity="center"
+               android:layout_marginLeft="25dp"
+               >
+
+           </ImageView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="20dp"
+               android:text="@string/user_profile_add_books"
+               android:textColor="#49577a"
+               android:fontFamily="@font/superagothic_extrabold"
+               >
+
+           </TextView>
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="876px"
+           android:layout_height="114px"
+           android:background="@drawable/scrollview_content_background"
+           android:layout_gravity="center"
+           android:orientation="horizontal"
+           android:layout_marginTop="25dp"
+           >
+           <ImageView
+               android:layout_width="69px"
+               android:layout_height="53px"
+               android:src="@drawable/my_books_icon"
+               android:layout_gravity="center"
+               android:layout_marginLeft="25dp"
+               >
+
+           </ImageView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="20dp"
+               android:text="@string/user_profile_my_books"
+               android:textColor="#49577a"
+               android:fontFamily="@font/superagothic_extrabold"
+               >
+
+           </TextView>
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="876px"
+           android:layout_height="114px"
+           android:background="@drawable/scrollview_content_background"
+           android:layout_gravity="center"
+           android:orientation="horizontal"
+           android:layout_marginTop="25dp"
+           >
+
+           <ImageView
+               android:layout_width="59px"
+               android:layout_height="51px"
+               android:layout_gravity="center"
+               android:layout_marginLeft="25dp"
+               android:src="@drawable/favourites_icon">
+
+           </ImageView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="20dp"
+               android:text="@string/user_profile_My_favourites"
+               android:textColor="#49577a"
+               android:fontFamily="@font/superagothic_extrabold"
+               >
+
+           </TextView>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="876px"
+           android:layout_height="114px"
+           android:background="@drawable/scrollview_content_background"
+           android:layout_gravity="center"
+           android:orientation="horizontal"
+           android:layout_marginTop="25dp"
+           >
+           <ImageView
+               android:layout_width="70px"
+               android:layout_height="59px"
+               android:src="@drawable/book_location_icon"
+               android:layout_gravity="center"
+               android:layout_marginLeft="25dp"
+               >
+
+           </ImageView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="20dp"
+               android:text="@string/user_profile_book_location"
+               android:textColor="#49577a"
+               android:fontFamily="@font/superagothic_extrabold"
+               >
+
+           </TextView>
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="876px"
+           android:layout_height="114px"
+           android:background="@drawable/scrollview_content_background"
+           android:layout_gravity="center"
+           android:orientation="horizontal"
+           android:layout_marginTop="25dp"
+           >
+
+           <ImageView
+               android:layout_width="59px"
+               android:layout_height="59px"
+               android:layout_gravity="center"
+               android:layout_marginLeft="25dp"
+               android:src="@drawable/review_icon">
+
+           </ImageView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="20dp"
+               android:text="@string/user_profile_reviews"
+               android:textColor="#49577a"
+               android:fontFamily="@font/superagothic_extrabold"
+               >
+
+           </TextView>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="876px"
+           android:layout_height="114px"
+           android:background="@drawable/scrollview_content_background"
+           android:layout_gravity="center"
+           android:orientation="horizontal"
+           android:layout_marginTop="25dp"
+           >
+           <ImageView
+               android:layout_width="68px"
+               android:layout_height="59px"
+               android:src="@drawable/following_icon"
+               android:layout_gravity="center"
+               android:layout_marginLeft="25dp"
+               >
+
+           </ImageView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="20dp"
+               android:text="@string/user_profile_followings"
+               android:textColor="#49577a"
+               android:fontFamily="@font/superagothic_extrabold"
+               >
+
+           </TextView>
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="876px"
+           android:layout_height="114px"
+           android:background="@drawable/scrollview_content_background"
+           android:layout_gravity="center"
+           android:orientation="horizontal"
+           android:layout_marginTop="25dp"
+           >
+           <ImageView
+               android:layout_width="67px"
+               android:layout_height="60px"
+               android:src="@drawable/followers_icon"
+               android:layout_gravity="center"
+               android:layout_marginLeft="25dp"
+               >
+
+           </ImageView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="20dp"
+               android:text="@string/user_profile_followers"
+               android:textColor="#49577a"
+               android:fontFamily="@font/superagothic_extrabold"
+               >
+
+           </TextView>
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="876px"
+           android:layout_height="114px"
+           android:background="@drawable/scrollview_content_background"
+           android:layout_gravity="center"
+           android:orientation="horizontal"
+           android:layout_marginTop="25dp"
+           >
+           <ImageView
+               android:layout_width="50px"
+               android:layout_height="57px"
+               android:src="@drawable/exchange_history_icon"
+               android:layout_gravity="center"
+               android:layout_marginLeft="25dp"
+               >
+
+           </ImageView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="20dp"
+               android:text="@string/user_profile_exchange_history"
+               android:textColor="#49577a"
+               android:fontFamily="@font/superagothic_extrabold"
+               >
+
+           </TextView>
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="876px"
+           android:layout_height="114px"
+           android:background="@drawable/scrollview_content_background"
+           android:layout_gravity="center"
+           android:orientation="horizontal"
+           android:layout_marginTop="25dp"
+           >
+           <ImageView
+               android:layout_width="52px"
+               android:layout_height="54px"
+               android:src="@drawable/card_icon"
+               android:layout_gravity="center"
+               android:layout_marginLeft="25dp"
+               >
+
+           </ImageView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="20dp"
+               android:text="@string/user_profile_my_card"
+               android:textColor="#49577a"
+               android:fontFamily="@font/superagothic_extrabold"
+               >
+
+           </TextView>
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="876px"
+           android:layout_height="114px"
+           android:background="@drawable/scrollview_content_background"
+           android:layout_gravity="center"
+           android:orientation="horizontal"
+           android:layout_marginTop="25dp"
+           >
+
+           <ImageView
+               android:layout_width="52px"
+               android:layout_height="53px"
+               android:layout_gravity="center"
+               android:layout_marginLeft="25dp"
+               android:src="@drawable/drafts_icon">
+
+           </ImageView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginLeft="20dp"
+               android:text="@string/user_profile_drafts"
+               android:textColor="#49577a"
+               android:fontFamily="@font/superagothic_extrabold"
+               >
+
+           </TextView>
+
+
+       </LinearLayout>
+
+       <Button
+           android:layout_width="876px"
+           android:layout_height="114px"
+           android:layout_marginTop="40dp"
+           android:background="@drawable/scrollview_content_background"
+           android:backgroundTint="#c6c6c6"
+           android:text="@string/user_profile_sign_out"
+           android:textColor="#ffffff"
+           android:layout_gravity="center"
+           android:fontFamily="@font/superagothic_extrabold"
+           android:textAllCaps="false"
+           >
+
+       </Button>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:background="#ffffff"
+           >
+
+       </LinearLayout>
+
+   </LinearLayout>
+    
+
+</ScrollView>

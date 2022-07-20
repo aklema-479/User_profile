@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Andoid project/drive-download-20220601T143331Z-001/user_profile/app/src/main/res/font/font.xml" value="0.2329004329004329" />
+        <entry key="..\:/Andoid project/drive-download-20220601T143331Z-001/user_profile/app/src/main/res/layout/activity_main.xml" value="0.21052631578947367" />
+        <entry key="..\:/Andoid project/drive-download-20220601T143331Z-001/user_profile/app/src/main/res/layout/profile_content.xml" value="0.21052631578947367" />
+        <entry key="..\:/Andoid project/drive-download-20220601T143331Z-001/user_profile/app/src/main/res/layout/toolbar.xml" value="0.21052631578947367" />
+        <entry key="..\:/user_profile/app/src/main/res/drawable/scrollview_content_background.xml" value="0.16277056277056276" />
+        <entry key="..\:/user_profile/app/src/main/res/font/font.xml" value="0.17445887445887445" />
+        <entry key="..\:/user_profile/app/src/main/res/layout/activity_main.xml" value="0.10666666666666667" />
+        <entry key="..\:/user_profile/app/src/main/res/layout/profile_content.xml" value="0.13333333333333333" />
+        <entry key="..\:/user_profile/app/src/main/res/layout/toolbar.xml" value="0.1513157894736842" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

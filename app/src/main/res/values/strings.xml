@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">user_profile</string>
+    <string name="user_heading">User Profile</string>
+    <string name="user_name">Abrar Rahman</string>
+    <string name="user_email">abrarrahman514@gmail.com</string>
+    <string name="total_books_number">18</string>
+    <string name="total_books">Total Books</string>
+    <string name="followers_number">22</string>
+    <string name="followers">Followers</string>
+    <string name="following_numbers">50</string>
+    <string name="following">Following</string>
+    <string name="user_profile_messages">Messages</string>
+    <string name="user_profile_add_books">Add Books </string>
+    <string name="user_profile_my_books">My Books </string>
+    <string name="user_profile_book_location">Book Location </string>
+    <string name="user_profile_My_favourites">My favourites </string>
+    <string name="user_profile_reviews">Reviews</string>
+    <string name="user_profile_followings">Followings</string>
+    <string name="user_profile_followers">Followers</string>
+    <string name="user_profile_exchange_history">Exchange History</string>
+    <string name="user_profile_my_card">My Card</string>
+    <string name="user_profile_drafts">Drafts</string>
+    <string name="user_profile_sign_out">Sign Out</string>
+
+</resources>
